@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.15.0",
+  "devDependencies": {
+    "@types/ws": "^8.18.1",
+    "ws": "^8.18.3"
+  },
+  "dependencies": {
+    "@types/uuid": "^10.0.0",
+    "playwright": "^1.55.0",
+    "ts-node": "^10.9.2",
+    "uuid": "^11.1.0"
+  },
+  "type": "module"
+}

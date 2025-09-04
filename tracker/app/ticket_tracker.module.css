@@ -1,0 +1,43 @@
+.input_container{
+    margin-top: 100px;
+    border:black solid 2px;
+    width: 45%;
+    min-width: 600px;
+}
+.bundle{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: green dotted 2px;
+}
+.input_container_label{
+    text-align: center;
+}
+.input_field_container{
+    display: flex;
+    border: red dotted 2px;
+}
+.input_bar{
+    font-size: 25px;
+    padding: 5px;
+    margin: 5px;   
+    flex: 1;
+    
+}
+.input_button{
+    font-size: 25px;
+    padding: 5px;
+    margin: 5px;
+    flex: 5;
+}
+.ticker_container{
+    border: blue dotted 2px;
+    width: 45%;
+    min-width: 600px;
+    overflow: scroll;
+    max-height: 800px;
+}
+
+.Tickers{
+    border: pink dotted 2px;
+}
